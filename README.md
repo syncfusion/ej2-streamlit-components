@@ -1,97 +1,86 @@
-# Getting started with Syncfusion Grid component with Streamlit Python Framework
+# Syncfusion Streamlit Components Library (Essential JS 2)
 
-This article provides a step-by-step guide for setting up a [Streamlit](https://streamlit.io/) project with a Python environment and integrating the Syncfusion Grid components.
+ Syncfusion Streamlit Components library has been built from the ground up to be lightweight, responsive, modular and touch friendly.
+ > This is a commercial product and requires a paid license for possession or use. Syncfusion’s licensed software, including this component, is subject to the terms and conditions of Syncfusion's EULA (<https://www.syncfusion.com/eula/es/>). To acquire a license, you can purchase one at <https://www.syncfusion.com/sales/products> or start a free 30-day trial here (<https://www.syncfusion.com/account/manage-trials/start-trials>).
+>
+> A free community license (<https://www.syncfusion.com/products/communitylicense>) is also available for companies and individuals whose organizations have less than $1 million USD in annual gross revenue and five or fewer developers.
 
-The `Streamlit` is a free and open-source framework that enables quick development and sharing of visually appealing web applications for machine learning and data science.
+## Framework highlights
 
-## Set up the Streamlit project environment
+### Lightweight and user friendly
 
-A recommended approach for beginning with Streamlit framework is to create a Python environment with [venv](https://docs.python.org/3/library/venv.html). To create a new Python environment, use the following command.
+ The entire Library framework is built from scratch to be lightweight and modular. Its footprint can be reduced further by including only the specific components and features your application requires.
 
-```bash
-python -m venv my-project
-```
+### Modular architecture
 
-Using the above command will create a Python virtual environment.
+ All components have been built as modules to enable selective referencing, so only the components and features you need are included in your application.
 
-Upon completing the aforementioned step to create **my-project**, run the following command to install Streamlit:
+### Built for performance
 
-```bash
-cd my-project
-pip install streamlit
-```
+ Performance is critical for delivering a good user experience. We ensure that all our components are designed and built to achieve the best performance possible.
 
-Now that **my-project** is ready to run with default settings, let's add Syncfusion Grid components to the project.
+### Responsive and touch friendly
 
-## Add Syncfusion Grid package
+ All the components are touch friendly and render adaptively based on the device they are on to provide optimal usage experience on phones, tablets and desktops.
 
-Syncfusion Grid component package is available at [pypi.org](https://pypi.org/project/ej2-streamlit-grids/). To use the Syncfusion Grid component in the project, install the corresponding pip package.
+### Stunning built-in themes
 
-```sh
-pip install ej2-streamlit-grids
-```
+ Pixel-perfect built-in themes are available in material, bootstrap and fabric design. In addition, it comes with Accessible high-contrast theme and an online tool "[Theme Studio](https://ej2.syncfusion.com/themestudio/)" to customize the provided built-in themes.
 
-## Add Syncfusion Grid component
+### Globalization simplified
 
-Follow the below steps to add the Syncfusion Grid component to the Streamlit Python project:
+ Easily build applications to be used by a global audience in various language and culture settings.
 
-  1. First, create a Python file named **demo.py** and import the Grid component into the  **demo.py** file.
+### Stay current
 
-```py
-from ej2_streamlit_grids import GridComponent, GridProps
-```
-  2. Define the Grid component with the `GridProps` and `dataset` instance to the `GridComponent` function.
+ With our commitment to at least four major updates per year, you receive the most up-to-date functionality and new components in addition to monthly service packs and bug fixes. Custom patches are available as needed.
 
-```py
-data = pd.read_csv('dataset.csv')
-props = GridProps(data)
+## Control List
 
-GridComponent(props)
-```
+### Grids
 
-  3. Declare the values for the **dataset.csv** file.
+ <table>
+ <tr>
+       <td>
+           <a href="https://www.syncfusion.com/react-ui-components/react-data-grid"><b>Data Grid</b></a>
+       </td>
+       <td>
+           <a href="https://www.npmjs.com/package/@syncfusion/ej2-react-grids"><img src="https://ej2.syncfusion.com/github/images/npm-logo.png" alt="npm package @syncfusion/ej2-react-grids" title="@syncfusion/ej2-react-grids" style="height:20px;" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ej2.syncfusion.com/badges/ej2-grids"><img src="https://ej2.syncfusion.com/badges/ej2-grids/coverage.svg" alt="code coverage of @syncfusion/ej2-react-grids" title="@syncfusion/ej2-react-grids" /></a>
+       </td>
+       <td>
+           <a href="src/grids/src">Source</a>
+       </td>
+       <td>
+           <a href="https://ej2.syncfusion.com/react/demos/#/bootstrap5/grid/over-view">Live demo</a>
+       </td>
+       <td>
+           <a href="https://ej2.syncfusion.com/react/documentation/grid/getting-started/">Documentation</a>
+       </td>
+   </tr>
+</table>
 
-```sh
-OrderID, CustomerName, OrderDate, Freight, ShippedDate, ShipCountry
-10248, Paul Henriot, 7/4/1996, $32.38, 7/16/1996, France
-10249, Karin Josephs, 7/5/1996, $11.61, 7/10/1996, Germany
-10250, Mario Pontes, 7/8/1996, $65.83, 7/12/1996, Brazil
-10251, Mary Saveley, 7/8/1996, $41.34, 7/15/1996, France
-```
+## Supported Frameworks
 
-  4. Syncfusion components come with pre-defined themes that are built-in. To learn more about these themes, you can refer to the [themes topic](https://ej2.syncfusion.com/react/documentation/appearance/theme/). By default, the Syncfusion Streamlit Grid component uses the `Material` theme, but users have the ability to change the theme of the Grid component at the application level. The Grid component in this article is using the `Fluent` theme, which is referenced using the code snippet below.
+ The Essential JS 2 is also offered in following list of frameworks.
 
-```py
-props.theme = 'https://cdn.syncfusion.com/ej2/21.1.35/fluent.css'
-```
+* [JavaScript](https://www.syncfusion.com/javascript-ui-controls?utm_source=npm&utm_campaign=ej2-react-ui-components)
+* [Angular](https://www.syncfusion.com/angular-ui-components?utm_source=npm&utm_campaign=ej2-react-ui-components)
+* [React](https://www.syncfusion.com/react-ui-components?utm_source=npm&utm_campaign=ej2-vue-ui-components)
+* [Vue.js](https://www.syncfusion.com/vue-ui-components?utm_source=npm&utm_campaign=ej2-react-ui-components)
+* [ASP.NET Core](https://www.syncfusion.com/aspnet-core-ui-controls?utm_source=npm&utm_campaign=ej2-react-ui-components)
+* [ASP.NET MVC](https://www.syncfusion.com/aspnet-mvc-ui-controls?utm_source=npm&utm_campaign=ej2-react-ui-components)
 
-Here is the summarized code for the above steps in the **demo.py** file:
+## Support
 
-```py
-from ej2_streamlit_grids import GridComponent, GridProps
-import pandas as pd
+ Product support is available for through following mediums.
 
-data = pd.read_csv('dataset.csv')
-props = GridProps(data)
-props.theme = 'https://cdn.syncfusion.com/ej2/21.1.35/fluent.css'
+* Creating incident in Syncfusion [Direct-trac](https://www.syncfusion.com/support/directtrac/incidents?utm_source=npm&utm_campaign=ej2-react-ui-components) support system or [Community forum](https://www.syncfusion.com/forums/react-js2?utm_source=npm&utm_campaign=ej2-react-ui-components).
+* New [GitHub issue](https://github.com/syncfusion/ej2-react-ui-components/issues/new).
+* Ask your query in [Stack Overflow](https://stackoverflow.com/) with tag `syncfusion` and `ej2`.
 
-GridComponent(props)
-```
+## License
 
-## Run the project
+ Check the license detail [here](https://github.com/syncfusion/ej2-react-ui-components/blob/master/license).
 
-To run the project, use the following command:
-
-```sh
-streamlit run demo.py
-```
-
-The output will appear as follows:
-
-![demo](./demos/ej2_streamlit_grids_demo.png)
-
-## Grid features demo
-
-The Grid component is rendered along with some additional features in the **demo.py** file located in the **demos** folder. The resulting output with these features will be displayed as depicted below:
-
-![demo](./demos/ej2_streamlit_grids_demos.gif)
+     © Copyright 2022 Syncfusion, Inc. All Rights Reserved.
+    The Syncfusion Essential Studio license and copyright applies to this distribution.
