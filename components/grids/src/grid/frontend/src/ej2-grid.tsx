@@ -10,8 +10,7 @@ interface State {
 }
 
 /**
- * This is a React-based component template. The `render()` function is called
- * automatically when your component should be re-rendered.
+ * This is Syncfusion Streamlit Grid component.
  */
 export class EJ2Grid extends StreamlitComponentBase<State> {
 
@@ -75,7 +74,6 @@ export class EJ2Grid extends StreamlitComponentBase<State> {
     const totalColumns: any[] = this.renderColumns(this.props.args.params.data);
 
     if (this.props.args.params.licenseKey) {
-      console.log('license provided');
       registerLicense(this.props.args.params.licenseKey);
     }
 

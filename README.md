@@ -39,26 +39,8 @@
 
 ### Grids
 
- <table>
- <tr>
-       <td>
-           <a href="https://www.syncfusion.com/react-ui-components/react-data-grid"><b>Data Grid</b></a>
-       </td>
-       <td>
-           <a href="https://www.npmjs.com/package/@syncfusion/ej2-react-grids"><img src="https://ej2.syncfusion.com/github/images/npm-logo.png" alt="npm package @syncfusion/ej2-react-grids" title="@syncfusion/ej2-react-grids" style="height:20px;" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://ej2.syncfusion.com/badges/ej2-grids"><img src="https://ej2.syncfusion.com/badges/ej2-grids/coverage.svg" alt="code coverage of @syncfusion/ej2-react-grids" title="@syncfusion/ej2-react-grids" /></a>
-       </td>
-       <td>
-           <a href="src/grids/src">Source</a>
-       </td>
-       <td>
-           <a href="https://ej2.syncfusion.com/react/demos/#/bootstrap5/grid/over-view">Live demo</a>
-       </td>
-       <td>
-           <a href="https://ej2.syncfusion.com/react/documentation/grid/getting-started/">Documentation</a>
-       </td>
-   </tr>
-</table>
-
+* Data Grid
+  
 ## Supported Frameworks
 
  The Essential JS 2 is also offered in following list of frameworks.
@@ -80,7 +62,8 @@
 
 ## License
 
- Check the license detail [here](https://github.com/syncfusion/ej2-react-ui-components/blob/master/license).
+Check the license detail [here](https://github.com/syncfusion/ej2-react-ui-components/blob/master/license).
 
-     © Copyright 2022 Syncfusion, Inc. All Rights Reserved.
-    The Syncfusion Essential Studio license and copyright applies to this distribution.
+&copy; Copyright 2023 Syncfusion, Inc. All Rights Reserved.
+
+The Syncfusion Essential Studio license and copyright applies to this distribution.
