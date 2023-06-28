@@ -2,7 +2,7 @@
 
 The [Streamlit Data Grid](https://www.syncfusion.com/react-ui-components/react-grid?utm_source=npm&utm_medium=listing&utm_campaign=react-grid-npm) component is a powerful and flexible tool for displaying and manipulating tabular data. This makes it easy to integrate the grid into your application and display data from a variety of sources. In addition to its data binding capabilities, the Streamlit Data Grid also offers support for features such as sorting, filtering, paging, grouping, editing, frozen rows and columns, virtualization, and more. These features allow you to easily manipulate and present large datasets in an efficient and user-friendly way.
 
-![Streamlit Grid Component](https://github.com/SyncfusionExamples/Getting-started-with-Syncfusion-Grid-component-in-Streamlit-app/blob/master/images/ej2_streamlit_grids_demos.gif)
+![Streamlit Grid Component](https://github.com/SyncfusionExamples/Getting-started-with-Syncfusion-Grid-component-in-Streamlit-app/master/images/ej2_streamlit_grids_demos.gif)
 
 ## Supported frameworks
 
