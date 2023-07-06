@@ -1,34 +1,30 @@
-# Syncfusion Streamlit Components Library (Essential JS 2)
+# Syncfusion Streamlit Components
 
- Syncfusion Streamlit Components library has been built from the ground up to be lightweight, responsive, modular and touch friendly.
+Syncfusion Streamlit Grid component is a powerful control that allows you to display data in a tabular format with rich features.
 
-## Control List
+## Installation
 
-### Grids
-
-* Data Grid
-
-#### Usage
+You can install the Syncfusion Streamlit Grid component using the following command:
 
 ```bash
 pip install ej2-streamlit-grids
 ```
 
-#### Demo
+## Demo
+
+To get started with the Syncfusion Grid component in Streamlit, refer to the [GitHub](https://github.com/SyncfusionExamples/Getting-started-with-Syncfusion-Grid-component-in-Streamlit-app) repository. The provided example demonstrates the usage of the Grid component along with additional features.
 
 ![Streamlit Grid Component](https://raw.githubusercontent.com/SyncfusionExamples/Getting-started-with-Syncfusion-Grid-component-in-Streamlit-app/master/images/ej2_streamlit_grids_demos.gif)
 
 ## Support
 
- Product support is available for through following mediums.
+Product support is available for through following mediums.
 
-* Creating incident in Syncfusion [Direct-trac](https://www.syncfusion.com/support/directtrac/incidents?utm_source=npm&utm_campaign=ej2-streamlit-ui-components) support system or [Community forum](https://www.syncfusion.com/forums/react-js2?utm_source=npm&utm_campaign=ej2-react-ui-components).
+* Creating incident in Syncfusion [Direct-trac](https://www.syncfusion.com/support/directtrac/incidents?utm_source=npm&utm_campaign=ej2-streamlit-ui-components) support system or [Community forum](https://www.syncfusion.com/forums/react-js2?utm_source=npm&utm_campaign= ej2-streamlit-ui-components ).
 * Ask your query in [Stack Overflow](https://stackoverflow.com/) with tag `syncfusion` and `ej2`.
 
 ## License
 
-Check the license detail [here](https://github.com/syncfusion/ej2-react-ui-components/blob/master/license).
+Please refer to the [license](https://github.com/syncfusion/ej2-streamlit-components/blob/master/license) for detailed information about the Syncfusion Essential Studio license and copyright.
 
-&copy; Copyright 2023 Syncfusion, Inc. All Rights Reserved.
-
-The Syncfusion Essential Studio license and copyright applies to this distribution.
+© 2023 Syncfusion, Inc. All Rights Reserved.
