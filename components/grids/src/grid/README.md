@@ -1,4 +1,4 @@
-# Syncfusion Streamlit Components
+# Syncfusion Streamlit Grid Component
 
 Syncfusion Streamlit Grid component is a powerful control that allows you to display data in a tabular format with rich features.
 
