@@ -14,12 +14,16 @@ setuptools.setup(
     url="https://github.com/syncfusion/ej2-streamlit-components/tree/master/components/grids/src",
     packages=setuptools.find_packages(),
     include_package_data=True,
-    classifiers=[],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
     python_requires=">=3.6",
     install_requires=[
         # By definition, a Custom Component depends on Streamlit.
         # If your component has other Python dependencies, list
         # them here.
-        "streamlit >= 0.63",
+        "streamlit >= 0.75",
     ],
 )
