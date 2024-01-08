@@ -27,4 +27,4 @@ Product support is available for through following mediums.
 
 Please refer to the [license](https://github.com/syncfusion/ej2-streamlit-components/blob/master/license) for detailed information about the Syncfusion Essential Studio license and copyright.
 
-© 2023 Syncfusion, Inc. All Rights Reserved.
+© 2024 Syncfusion, Inc. All Rights Reserved.

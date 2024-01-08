@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="ej2_streamlit_grids",
-    version="22.1.34",
+    version="24.1.41",
     author="Syncfusion",
     author_email="info@syncfusion.com",
     description="Streamlit component implementation of Syncfusion Grid",
@@ -16,6 +16,9 @@ setuptools.setup(
     include_package_data=True,
     classifiers=[
         "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
