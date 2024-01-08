@@ -49,4 +49,4 @@ For any questions or assistance, you can:
 
 For detailed information about the Syncfusion Essential Studio license and copyright, please refer to the [license](https://github.com/syncfusion/ej2-streamlit-components/blob/master/LICENSE).
 
-© 2023 Syncfusion, Inc. All Rights Reserved.
+© 2024 Syncfusion, Inc. All Rights Reserved.
