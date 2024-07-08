@@ -23,7 +23,7 @@ import pandas as pd
 data = pd.read_csv('https://raw.githubusercontent.com/SyncfusionExamples/Getting-started-with-Syncfusion-Grid-component-in-Streamlit-app/master/dataset.csv')
 props = GridProps(data)
 
-SfGrid(props)
+SfGrid(Props=props)
 ```
 3. Run the Streamlit app with the following command:
 ```bash
