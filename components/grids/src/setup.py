@@ -6,9 +6,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="ej2_streamlit_grids",
     version="24.1.41",
-    author="Syncfusion",
+    author="Syncfusion®",
     author_email="info@syncfusion.com",
-    description="Streamlit component implementation of Syncfusion Grid",
+    description="Streamlit component implementation of Syncfusion® Grid",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/syncfusion/ej2-streamlit-components/tree/master/components/grids/src",
