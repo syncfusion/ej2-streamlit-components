@@ -81,7 +81,7 @@ export class EJ2Grid extends StreamlitComponentBase<State> {
     return (
       <>
         <link rel="stylesheet" href={this.props.args.params.theme} />
-        <GridComponent ref={grid => this.gridInstance = grid}
+        <GridComponent ref={(grid: GridComponent | null) => this.gridInstance = grid}
           dataSource={this.props.args.params.data}
           toolbar={this.props.args.params.toolbarItems}
           toolbarClick={this.toolbarClick.bind(this)}
