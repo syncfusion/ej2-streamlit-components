@@ -18,7 +18,7 @@ else:
     build_dir = os.path.join(parent_dir, "frontend/build")
     _component_func = components.declare_component("EJ2Grid", path=build_dir)
 
-def SfGrid (Data: pd.DataFrame=None, Props: typing.Dict=None):
+def SfGrid (Data: pd.DataFrame=None, Props: typing.Dict=None, key: str = None):
 
     if Data is not None:
         dataSet = PdToJson(Data)
@@ -32,6 +32,7 @@ def SfGrid (Data: pd.DataFrame=None, Props: typing.Dict=None):
     if (Data is not None or Props is not None):
         params ={
                     # Properties
+                    'component_key': key,
                     'data': dataSet,
                     'allowExcelExport': Props.allowExcelExport,
                     'allowFiltering': Props.allowFiltering,
@@ -84,7 +85,7 @@ def SfGrid (Data: pd.DataFrame=None, Props: typing.Dict=None):
                     'frozenRows': Props.frozenRows,
                     'theme': Props.theme,
                 }
-        component_value = _component_func(params=params)
+        return _component_func(params=params, key=key)
     else:
         st.warning('Provide data to render Grid component', icon="⚠️")
 
