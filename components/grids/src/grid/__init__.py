@@ -154,7 +154,7 @@ class GridProps:
         self.frozenRows = None
         self.gridLines = None
         self.editSettings = None
-        self.theme = 'https://cdn.syncfusion.com/ej2/22.1.34/material.css'
+        self.theme = 'https://cdn.syncfusion.com/ej2/35.1.40/material.css'
         self.__license_key = None
 
     def registerLicense(self, key: str):
