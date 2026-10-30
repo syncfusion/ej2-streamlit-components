@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@syncfusion/ej2-react-grids": "*",
+    "@types/minimatch": "^3.0.5",
     "@types/jest": "^24.0.0",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
